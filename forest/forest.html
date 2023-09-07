@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calm Forest</title>
+    <link rel="stylesheet" href="forest.css">
+</head>
+<body>
+    <div id="containerCountdown">
+        <p id="countdown">Relax...</p>
+    </div>
+
+    <div id="start">
+        <svg  id="startButton" xmlns="http://www.w3.org/2000/svg" width="64" height="64" fill="currentColor" class="bi bi-play-circle" viewBox="0 0 16 16">
+            <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+            <path d="M6.271 5.055a.5.5 0 0 1 .52.038l3.5 2.5a.5.5 0 0 1 0 .814l-3.5 2.5A.5.5 0 0 1 6 10.5v-5a.5.5 0 0 1 .271-.445z"/>
+          </svg>
+    </div>
+
+    <div id="goHome">
+        
+        <button id="goBack"><a href="../index.html">Go back</a></button>
+    </div>
+
+    <video id="player" autoplay  muted loop>
+        <source src="forest.mp3" type="audio/mp3">
+    </video>
+        
+    <div id="videoBack">
+        <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline id="myVideo">
+            <source src="forest.mp4" type="video/mp4">
+        </video>
+    </div>
+
+    <script src="forest.js"></script>
+    
+</body>
+</html>
