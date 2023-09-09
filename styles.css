@@ -37,7 +37,7 @@ h1 {
     border: 0;
     cursor: pointer;
     font-size: 2rem;
-    background-image: url(forest.jpg);
+    background-image: url(forest_icon.jpg);
     background-size: cover;
     color: white;
     font-size: 40px;
@@ -58,7 +58,7 @@ h1 {
     border: 0;
     cursor: pointer;
     font-size: 2rem;
-    background-image: url(ocean.jpg);
+    background-image: url(ocean_icon.jpg);
     background-size: cover;
     color: white;
     font-size: 40px;
@@ -79,7 +79,7 @@ h1 {
     border: 0;
     cursor: pointer;
     font-size: 2rem;
-    background-image: url(rain.jpg);
+    background-image: url(rain_icon.jpg);
     background-size: cover;
     color: white;
     font-size: 40px;
@@ -94,13 +94,15 @@ h1 {
     border: solid 3px white;
 }
 
+
+
 #waterfall {
     width: 300px;
     height: 200px;
     border: 0;
     cursor: pointer;
     font-size: 2rem;
-    background-image: url(water.jpg);
+    background-image: url(water_icon.jpg);
     background-size: cover;
     color: white;
     font-size: 40px;

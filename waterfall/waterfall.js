@@ -1,4 +1,4 @@
-const startButton = document.querySelector("#startButton");
+/*const startButton = document.querySelector("#startButton");
 
 
 
@@ -6,7 +6,7 @@ document.querySelector('#startButton').addEventListener('click',()=>{
     //document.querySelector('#player').play()
     document.querySelector('#player').muted=false
 }
-)
+)*/
 
 const timer = 3;
 let amountTime = timer * 60;
@@ -24,7 +24,7 @@ function calculateTime() {
     countdown.textContent = `${minutes} : ${seconds}`;
     amountTime--;
 
-    console.log(amountTime);
+    //console.log(amountTime);
 
     if (amountTime < 0){
         stopTimer();

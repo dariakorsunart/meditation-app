@@ -24,7 +24,7 @@ function calculateTime() {
     countdown.textContent = `${minutes} : ${seconds}`;
     amountTime--;
 
-    console.log(amountTime);
+    //console.log(amountTime);
 
     if (amountTime < 0){
         stopTimer();

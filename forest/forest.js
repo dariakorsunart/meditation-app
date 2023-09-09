@@ -1,13 +1,17 @@
-const startButton = document.querySelector("#startButton");
+//const startButton = document.querySelector("#startButton");
 
 
-
+/*
 document.querySelector('#startButton').addEventListener('click',()=>{
-    //document.querySelector('#player').play()
-    document.querySelector('#player').muted=false
+    let playerElm = document.querySelector('#player')
+    if(playerElm.muted ===true){
+        playerElm.muted = false
+    }else{
+        playerElm.muted = true
+    }    
 }
 )
-
+*/
 
 const timer = 3;
 let amountTime = timer * 60;
